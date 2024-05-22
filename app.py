@@ -47,7 +47,7 @@ class App(ctk.CTk):
 
     def exibir(self):
         janela_exibir = ExibirVeiculos(self)    
-        janela_exibir.grab_()
+        janela_exibir.grab_set()
 
     def alugar(self):
         janela_alugar = AlugarVeiculo(self)
